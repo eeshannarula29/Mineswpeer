@@ -7,10 +7,12 @@ function make2dArray(cols,rows)
   }
   return arr;
 }
+
 var grid;
 var cols;
 var rows;
 var s=20;
+
 function setup(){
 createCanvas(501,501)
      cols=floor(width/s);
